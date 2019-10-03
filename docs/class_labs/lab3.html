@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sample HTML Demonstration Page</title>
+    <style>
+      .doc {
+        background: green;
+        height: 960px;
+        width: 480px;
+      }
+
+      body {
+        background-color: grey;
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        margin: 0;
+      }
+
+      /*.newsline {
+        font-size: 42px;
+        
+        font-weight: 400;
+      } not needed*/
+
+      .wrapper {
+           width: 100%;
+           height: 100vh;
+          
+           background: grey;
+       } 
+
+      .head {
+        text-align: center;
+
+        align-items: center;
+        margin-bottom: 25px;
+      }
+
+      .head a {
+        color: purple;
+      } 
+
+      .second_container {
+        background: pink;
+        max-height: 150px;
+        padding: 4%;
+        width: auto;
+      }
+
+      .second_container p {
+        text-align: center;
+      }
+
+      .container {
+        display: flex;
+
+        justify-content: space-around;
+        align-items: center;
+      }
+      .row {
+        display:flex;
+      }
+
+      .column {
+        padding: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: red;
+        width: 350px;
+      }
+
+      .column p {
+        text-align: center;
+        cursor: pointer;
+      }
+
+      .second {
+        padding: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        background-color: lightblue;
+        width: 350px;
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="head" id="start">
+        <h2>Sample header</h2>
+        <a href="#">anchor tag to nowhere</a>
+      </div>
+      <div class="second_container">
+        <p>hello</p>
+      </div>
+      <div class="row">
+        <div class="column">
+          <p>click me I'm great</p>
+        </div>
+        <div class="column"></div>
+      </div>
+      <div class="row">
+        <div class="second">
+          <p>World #2</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
