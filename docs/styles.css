@@ -37,7 +37,7 @@ body{
     padding-right: 0px;
     border-radius:50%;
     float: left;
-    
+    margin: 20px;
 }
 
 .background_bio{
@@ -50,25 +50,21 @@ body{
     width:70%;
     padding-top: 5%;
     padding-left: 7%;
-    
-
 }
 .flex-container{
     display:flex;
     flex-flow: column;
     justify-content: space-between;
     margin:0;
-    padding:0;
+    padding:2%;
     height:150px;
     background-color: rgb(236, 236, 236);
-
+    line-height: 20px;
 }
 
 .flex-header{
     text-align: center;
     font-family: 'Franklin Gothic Medium';
-
-
 }
 
 .flex-content{
@@ -77,8 +73,10 @@ body{
     flex: 1 1 auto;
     position:relative;
     text-align: left;
-    
+    width:95%;  
 }
 
-
+.flex-list{
+    margin-left:5%;
 }
+
