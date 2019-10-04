@@ -69,6 +69,7 @@ body{
 
 .flex-content{
     padding:2%;
+    line-height: 20px;
     font-family:'Times New Roman';
     flex: 1 1 auto;
     position:relative;
